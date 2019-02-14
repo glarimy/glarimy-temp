@@ -1,0 +1,44 @@
+.s-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100% !important;
+    display: inline-block;
+    background-color: white;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.s-box {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 -2px;
+    width: 10px;
+    background-color: red;
+    height: 10px;
+}
+
+
+.s-line {
+    display: inline-block;
+    width: 20%;
+}
+
+.s-solidline {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 -2px;
+    width: 0%;
+    background-color: none;
+    border-top: solid 2px black;
+}
+
+.s-dashedline {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 -2px;
+    width: 100%;
+    background-color: none;
+    height: 1px;
+    border-top: dashed 1px black;
+}

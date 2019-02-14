@@ -1,0 +1,12 @@
+USER GUIDE
+
+This component spies on the scrolling across various elements in a given container.
+The bar on the top of the page displays the current element being scrolled.
+There is no limit on the number of elements in the container.
+
+USAGE:
+0. Include the stylesheet 'surekha.css' and javascript library 'surekha.js' in to the header. This component depends on JQuery, hence add it as well.
+1. Create an empty DIV element with id 's-spy'. This element displays the scroll status.
+2. Wrap the elements to be scrolled with a parent DIV with id 's-container'. Make sure every scrollable element is having an id.
+3. Call the function spy() after the document load.
+4. And that's it. Watch the fun by scrolling the document up and down.
